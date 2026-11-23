@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Studio - FAQs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="faqs-page">
+    <header>
+    <a href="index.html" class="logo">
+    ECH <img src="photo/Group 45.png" alt="Logo icon"></a>
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>
+                U WILL FIND<br>
+                YOUR ANSWER<br>
+                HERE
+            </h1>
+            <div class="faq-options">
+
+                <div class="faq-wrap">
+                    <button class="faq-option">SEARCH <span>Q</span></button>
+                    <div class="faq-drop">
+                        <p><a href="portfolio.html">Find our portfolio</a></p>
+                        <p><a href="services.html">Works and services easily here</a></p>
+                    </div>
+                </div>
+
+                <div class="faq-wrap">
+                    <button class="faq-option">NEWS <span>Q</span></button>
+                    <div class="faq-drop">
+                        <a href="https://instagram.com" target="_blank">
+                        <p>Studio Event</a></p> 
+                        <a href="https://instagram.com" target="_blank">
+                        <p>Latest News</a></p>
+                        
+                    </div>
+                </div>
+
+                <div class="faq-wrap">
+                    <button class="faq-option">HOW U JOIN ? <span>Q</span></button>
+                    <div class="faq-drop">
+                        <p><a href="contact-us.html">us directly to book and join us.</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="photo/image 19.png">
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-logo">
+            <a href="index.html">
+    ECH <img src="photo/Group 45.png" alt="Logo icon"></a>
+        </div>
+
+        <div class="footer-col">
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="https://instagram.com" target="_blank">Our Story</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+            <ul>
+                <li><a href="services.html">Customer Service</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <div class="title">Follow Us</div>
+            <div class="social-icons">
+            <a href="https://facebook.com" target="blank">f</a>
+            <a href="https://instagram.com" target="blank">ig</a>
+            <a href="https://x.com" target="blank">x</a>
+        </div>
+        </div>
+        </div>
+
+    <div class="footer-bottom">
+        © 2026 Echo Studio. All rights reserved
+    </div>
+</footer>
+
+    <script>
+        const faqBtns = document.querySelectorAll('.faq-option');
+        faqBtns.forEach(btn => {
+            btn.addEventListener('click', function(){
+                this.parentElement.classList.toggle('open');
+            });
+        });
+    </script>
+
+</body>
+</html>
